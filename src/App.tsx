@@ -20,17 +20,17 @@ function App() {
         </div>
 
         <div className="grid grid-cols-2 gap-4 mt-5">
-          <div className="rounded-2xl bg-white shadow-[0_4px_16px_rgba(0,0,0,0.06)] p-6 h-36">
+          <div className="rounded-2xl bg-white shadow-[0_4px_16px_rgba(0,0,0,0.06)] pt-8 px-4 h-36">
             <p className="text-neutral-500 text-sm">Your Investment</p>
             <p className="text-3xl font-semibold mt-1">₹500</p>
           </div>
-          <div className="rounded-2xl bg-white shadow-[0_4px_16px_rgba(0,0,0,0.06)] p-6 h-36">
+          <div className="rounded-2xl bg-white shadow-[0_4px_16px_rgba(0,0,0,0.06)] pt-8 px-4 h-36">
             <p className="text-neutral-500 text-sm">1M</p>
             <div className="mt-2 h-16 w-full">
               <img
                 src={chartImage}
                 alt="Gold price chart"
-                className="w-full h-full object-cover -pb-4"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>
